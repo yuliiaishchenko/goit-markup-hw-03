@@ -1,4 +1,4 @@
-:root{
+:root {
     --primary-text-color: #212121;
     --title-text-color: #757575;
     --accent-text-color: #2196F3;
@@ -6,12 +6,14 @@
     --fon-text-color-rgba: #FFFFFF99;
     --bg-color: #2F303A;
 }
+
 .body {
-    background:  var(--fon-text-color);
-    color:  var(--primary-text-color);
+    background: var(--fon-text-color);
+    color: var(--primary-text-color);
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
 }
+
 header {
     letter-spacing: 0.02em;
 }
@@ -32,9 +34,11 @@ a {
 .accent {
     color: var(--accent-text-color);
 }
+
 .hero {
     background-color: var(--bg-color);
 }
+
 .hero-title {
     color: var(--fon-text-color);
     font-style: normal;
@@ -45,9 +49,11 @@ a {
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+
 ul {
     list-style: none;
 }
+
 .hero .button {
     color: var(--fon-text-color);
     background: var(--accent-text-color);
@@ -56,29 +62,31 @@ ul {
     line-height: 1.88;
     letter-spacing: 0.06em;
 }
+
 .hero .button:hover,
-.hero .button:focus
-{background: #188CE8}
+.hero .button:focus {
+    background: #188CE8
+}
 
 div {
-   text-align: center;
+    text-align: center;
 }
 
 /* site-nav  */
 .site-nav .link {
-    color: var(--primary-text-color);  
+    color: var(--primary-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.site-nav .link:hover, 
-.site-nav .link:focus{
+
+.site-nav .link:hover,
+.site-nav .link:focus {
     color: var(--accent-text-color);
 }
 
-.auth-nav .link
-{
+.auth-nav .link {
     color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
@@ -90,9 +98,11 @@ div {
 .auth-nav .link:focus {
     color: var(--accent-text-color);
 }
+
 .section {
     color: var(--primary-text-color);
 }
+
 .section-title {
     color: var(--primary-text-color);
     font-weight: 700;
@@ -100,7 +110,7 @@ div {
     line-height: 1.14;
 }
 
-.text{
+.text {
     color: var(--title-text-color);
     font-size: 14px;
     line-height: 1.71;
@@ -121,11 +131,13 @@ div {
     font-size: 16px;
     line-height: 1.19;
 }
-.text-title{
+
+.text-title {
     color: var(--title-text-color);
     font-size: 16px;
     line-height: 1.19;
 }
+
 .site-button-list {
     color: var(--primary-text-color);
     font-weight: 500;
@@ -135,10 +147,11 @@ div {
 }
 
 .site-button-list .link:hover,
-.site-button-list .link:focus{
+.site-button-list .link:focus {
     background-color: var(--accent-text-color);
     color: var(--fon-text-color);
 }
+
 .section-title-portfolio {
     color: var(--primary-text-color);
     font-weight: 700;
@@ -152,12 +165,14 @@ div {
     font-size: 16px;
     line-height: 1.88;
 }
+
 /* footer */
 .text-link {
     color: var(--fon-text-color);
     font-size: 14px;
     line-height: 1.71;
 }
+
 .text-links {
     color: var(--fon-text-color-rgba);
     font-size: 14px;
@@ -173,13 +188,15 @@ button {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
+
 address {
     font-style: normal;
 }
-footer{
+
+footer {
     background: var(--bg-color);
     color: var(--fon-text-color);
-    }
+}
 
 .logo-footer {
     color: var(--fon-text-color);
@@ -196,8 +213,10 @@ footer{
 }
 
 .text-link:hover,
-.text-link:focus { color: var(--accent-text-color);
+.text-link:focus {
+    color: var(--accent-text-color);
 }
+
 .text-links:hover,
 .text-links:focus {
     color: var(--accent-text-color);
