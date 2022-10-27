@@ -23,7 +23,6 @@ header {
     letter-spacing: 0.02em;
 }
 .page-header {
-	width: 1230px;
 	padding-left: 15px;
 	padding-right: 15px;
 	margin-left: auto;
@@ -38,9 +37,7 @@ a {
     text-decoration: none;
 }
 .container {
-	width: 1230px;
-	padding-left: 15px;
-	padding-right: 15px;
+	width: 1200px;
 	margin-left: auto;
 	margin-right: auto;
     margin-bottom: 0;
@@ -60,8 +57,6 @@ h1,h2,h3,p,ul {
 .logo-nav {
     display: flex;
     align-items: baseline;
-    padding-top: 24px;
-    padding-bottom: 25px;
 }
 .flex-logo {
     padding-top: 32px;
@@ -70,7 +65,8 @@ h1,h2,h3,p,ul {
 .accent {
     color: var(--accent-text-color);
 }
-.hero {
+.hero {padding-top: 200px;
+    padding-bottom: 200px;
     background-color: var(--bg-color);
 }
 .hero-title {
@@ -214,10 +210,7 @@ margin-right: 0%;
     display: flex;
     justify-content: center; 
 }
-.primary-section {
-    color: var(--primary-text-color);
-    padding-top: 0%;
-    padding-bottom: 94px;}
+
 
 .flex-section {
     display: flex;
@@ -344,13 +337,7 @@ button {
     font-family: Roboto, sans-serif;
     color: var(--primary-text-color);
 }
-.container-site-button {
-    margin-bottom: 50px;
-    width: 1230px;
-	margin-left: auto;
-	margin-right: auto;
-    margin-bottom: 0;
-}
+
 .flex-filter {   
     position: absolute;
     width: 1px;
