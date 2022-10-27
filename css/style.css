@@ -214,6 +214,10 @@ margin-right: 0%;
     display: flex;
     justify-content: center; 
 }
+.primary-section {
+    color: var(--primary-text-color);
+    padding-top: 0%;
+    padding-bottom: 94px;}
 
 .flex-section {
     display: flex;
