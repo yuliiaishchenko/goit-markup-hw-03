@@ -24,6 +24,7 @@ header {
 }
 .page-header {
   border-bottom: 1px solid #ECECEC;
+  
  }
  .page-header .container {
     display: flex;
@@ -53,6 +54,7 @@ h1,h2,h3,p,ul {
 .logo-nav {
     display: flex;
     align-items: baseline;
+    width: 1200px;
 }
 .flex-logo {
     padding-top: 32px;
@@ -132,13 +134,11 @@ border: 0;
 {margin-right: 0;}
 
 .auth-nav .link
-{
-    color: var(--title-text-color);
+{    color: var(--title-text-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-   
 }
 
 .auth-nav .link:hover,
@@ -148,8 +148,9 @@ border: 0;
 .auth-nav {
     display: flex;
     padding: 0%;
-    margin-left: auto;
+   margin-left: auto;
 }
+
 .flex-nav {
     margin-right: 50px;
 }
@@ -214,8 +215,8 @@ margin-right: 0%;
     display: flex;
     justify-content: center; 
 }
- .section .about {
-    padding-top: 0%;
+  .about.section {
+    padding-top: 0;
  }
 img {
     display: block;
