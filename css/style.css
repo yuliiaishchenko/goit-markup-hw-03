@@ -420,8 +420,11 @@ footer{
 .logo-footer:focus {
     color: var(--accent-text-color);
 }
-.footer-link :not(:last-child) 
+.footer-link  
 {    margin-bottom: 9px;
+}
+.footer-link:nth-child(4n) {
+    margin-bottom: 0px;
 }
 
 .text-link:hover,
