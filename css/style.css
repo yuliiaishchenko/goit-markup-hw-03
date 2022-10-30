@@ -288,6 +288,10 @@ img {
     padding-left: 0%;
     padding-right: 0%;
 padding-inline-start: 0%;}
+ 
+.site-button-list li:not(:last-child){
+    margin-right: 8px;
+}
 
 .site-button-list .link{
     margin-right: 6px;
@@ -299,8 +303,7 @@ padding-inline-start: 0%;}
     background-color: var(--accent-text-color);
     color: var(--fon-text-color);}
 
-.site-button-list:last-child {
-    margin-right: 6px;}       
+    
  
 .filter-button {
     font-weight: 500;
@@ -309,7 +312,6 @@ padding-inline-start: 0%;}
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
     border-radius: 4px;
-    margin-right: 8px;
     border: 0;
     padding-top: 6px;
     padding-bottom: 6px;
